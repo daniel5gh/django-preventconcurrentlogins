@@ -8,14 +8,14 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-preventconcurrentlogins',
-    version='0.8.1',
+    version='0.8.1-daniel5gh1',
     packages=find_packages(),
     include_package_data=True,
     install_requires=['django'],
     license='MIT License',
     description='Django middleware that prevents multiple concurrent logins.',
     long_description=open(os.path.join(ROOT, 'README.md')).read(),
-    url='https://github.com/pcraston/django-preventconcurrentlogins',
+    url='https://github.com/daniel5gh/django-preventconcurrentlogins',
     author='Patrick Craston',
     author_email='patrick@craston.com',
     classifiers=[
